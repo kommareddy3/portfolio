@@ -1,0 +1,450 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+
+	font-family: italic;
+}
+
+.hero
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-80%,-50%);
+}
+
+header{
+	background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url();
+	min-height: 700px;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.nav-link li a
+{
+	color: orange;
+}
+
+/*.current
+{
+	background: yellow;
+}*/
+
+h1
+{
+	color:white;
+}
+
+.logo img
+{
+	float: left;
+	margin-top: 35px;
+	position: fixed;
+}
+
+.show-btn
+{
+	margin-top: 20px;
+}
+
+.btn{
+	color:orange;
+	padding: 8px 20px;
+	border: 2px solid orange;
+	border-radius: 15px;
+	text-decoration: none;
+	font-weight: 700;
+	font-size: 20px;
+	margin-bottom: 15px;
+}
+
+.btn:hover{
+	transition: all 0.5s ease-in;
+	color: white;
+	background: orange;
+	padding: 12px 25px;
+}
+
+.about:before
+{
+transform: skewY(-3deg);
+    height: 70px;
+    width: 100%;
+    content: "";
+    left: 0;
+    top:-55px;
+    background: white;
+    position: absolute;
+}
+
+.about{
+	position: relative;
+	padding-bottom: 50px;
+	height:100%;
+}
+.about h1
+{
+	padding-top: 55px;
+	color: black;
+	text-align: center;
+}
+
+.about h1:after
+{
+	width:80px;
+	height:3px;
+	content: " ";
+	background: black;
+	display: block;
+	margin:0 auto;
+	margin-top: 7px;
+}
+
+.tabs
+{
+	list-style-type: none;
+	top: 50px;	
+	text-align: center;
+}
+.tabs li
+{
+	display: inline-block;
+	margin:0 10px;
+}
+
+.tabs li a
+{
+	color: orange;
+	border-bottom: 2px solid orange;
+	text-decoration: none;
+	font-size: 22px;
+	font-weight: bold;
+}
+
+.tabs li a:hover
+{
+	color: green;
+	border-bottom: 2px solid green;
+	transition: all 0.5s ease-in;
+	padding: 10px ;
+}
+
+.bio-info
+{
+	padding-top: 30px;
+	font-size: 20px;
+	margin-top: 30px;
+}
+
+.skill-info{
+	margin-top: 50px;
+	padding-top: 30px;
+}
+
+.pro-style p
+{
+	margin-top: 3px;
+	font-size: 20px;
+	border-radius: 4px;
+}
+
+.pro-style
+{
+	height: 25px;
+}
+
+.education:before
+{
+transform: skewY(-3deg);
+    height: 75px;
+    width: 100%;
+    content: "";
+    left: 0;
+    top:-40px;
+    background: white;
+    position: absolute;
+}
+.education
+{
+	background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../images/degree.jpg);
+	background-position: top;
+	background-size: cover;
+	background-attachment: fixed;
+	color: white;
+	margin:0 auto; 
+	position: relative;
+	height: 100%;
+	padding-top: 50px;
+	padding-bottom: 50px;
+
+}
+
+.education h3
+{
+	margin-bottom: 30px;
+	color: orange;
+	font-size: 30px;
+}
+
+.education h3:after
+{
+	width:100px;
+	height:3px;
+	content: " ";
+	background: orange;
+	display: block;
+	margin:0 auto;
+	margin-top: 10px;
+}
+
+.info{
+	width: 70%;
+	margin-left: 15%;
+	text-align: justify;
+}
+
+.arrange{
+	text-align: justify;
+}
+
+.education i
+{
+	font-size: 25px;
+	color: rgb(47,240,19) ;
+}
+
+blockquote
+{
+font-size: 22px;
+color: white;
+}
+
+.deco
+{
+	width:10px;
+	height:3px;
+	content: " ";
+	background: white;
+	display: inline-block;
+	margin-bottom: 2px;
+}
+
+.education h2
+{
+	text-decoration: underline;
+}
+
+.education p
+{
+	font-size: 20px;
+}
+
+.btn-block
+{
+	
+	background:orange;
+	color:white;
+	border-radius: 4px;
+}
+
+.projects:before
+{
+transform: skewY(-3deg);
+    height:90px;
+    width: 100%;
+    content: "";
+    left: 0;
+    top:-55px;
+    background: black;
+    position: absolute;
+}
+
+.projects
+{
+	position: relative;
+	background:black;
+	color: white;
+	height: 100%;
+	
+	padding-bottom: 70px;
+}
+.projects h1
+{
+	padding-top: 70px;
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+.projects h1:after
+{
+	width:100px;
+	height:3px;
+	content: " ";
+	background: white;
+	display: block;
+	margin:0 auto;
+	margin-top: 7px;
+}
+
+.prj-link
+{
+	margin-bottom: 15px;
+}
+
+
+.content{
+	background:black;
+	opacity: 0.9;
+	width:307px;
+	height:40px;
+	bottom:0px;
+	position:absolute;
+	transition: height 0.5s;
+	transition-timing-function: linear;
+	text-align: center;
+	padding-top: 10px;
+	overflow: hidden;
+}
+
+.content h4
+{
+	color: orange;
+}
+
+.content p
+{
+	color:orange;
+	font-size: 15px;
+}
+
+.content:hover
+{
+	height: 210px;
+}
+
+
+.contact h3
+{
+	margin-top:0;
+	margin-bottom: 20px;
+}
+
+.contact:before
+{
+transform: skewY(-3deg);
+    height: 70px;
+    width: 100%;
+    content: "";
+    left: 0;
+    top:-35px;
+    background: aqua;
+    position: absolute;
+}
+
+.contact{
+	background: #b91444;
+	position: relative;
+	color: white;  
+	text-align: center;
+	padding-top:17%;
+	padding-bottom: 15px; 
+}
+
+.contact h3
+{
+	font-weight: 700;
+}
+
+.contact-info
+{ 
+	font-size: 25px;
+	margin-bottom: 20px;
+}
+
+.contact-info a 
+{
+	color: inherit;
+	text-decoration: none;
+}
+
+.fa
+{
+	display: inline-block;
+	font-size: 30px;
+}
+
+.mail,.phone,.linkedin
+{
+	display: inline-block;
+	font-weight: 700;
+	margin-left: 2%;
+	font-family: calibri;
+}
+
+.social a i
+{
+	font-size: 20px;
+	color: white;
+	border: 2px solid white;
+	border-radius: 100%;
+} 
+
+.social a i:hover
+{
+	background: white;
+	color:#b91444;
+}
+.facebook a i{
+	padding: 16px;
+	padding-top: 12px;
+	padding-bottom:12px;
+}
+.gplus a i
+{
+	padding: 10px;
+	padding-top: 12px;
+	padding-bottom: 12px;
+}
+
+.insta a i
+{
+	padding:13px;
+	padding-top: 12px;
+	padding-bottom: 12px;
+}
+
+.gplus,.facebook,.insta
+{
+	display: inline-block;
+	margin: 10px;
+	
+}
+
+.btn-touch
+{
+	margin-top: 35px;
+	margin-bottom: 35px;
+}
+
+.btn-touch a
+{
+color:white;
+text-decoration: none;
+border:2px solid white;
+padding: 10px;
+font-weight: 700;
+font-family: verdana;
+}
+
+.btn-touch a:hover
+{
+	color:#b91444; 
+	background: white;
+	transition: all 0.5s ease-in;
+
+}
