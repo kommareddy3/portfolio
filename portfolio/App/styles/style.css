@@ -105,6 +105,11 @@ transform: skewY(-3deg);
 	margin-top: 7px;
 }
 
+.about p
+{
+	text-align: justify;
+}
+
 .tabs
 {
 	list-style-type: none;
