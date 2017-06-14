@@ -348,7 +348,7 @@ transform: skewY(-3deg);
     content: "";
     left: 0;
     top:-35px;
-    background: #ffff00;
+    background: black;
     position: absolute;
 }
 
